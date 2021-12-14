@@ -4,7 +4,7 @@
     {
         public static string ConsoleToFullName()
         {
-            while(true)
+            while (true)
             {
                 string firstName = "";
                 string lastName = "";
@@ -57,7 +57,7 @@
 
             age = (int.Parse(currentDateStr) - int.Parse(dateOfBirth)) / 10000;
 
-            int[] birthAge = { int.Parse(dateOfBirth), age };
+            int[] birthAge = {int.Parse(dateOfBirth), age};
 
             return birthAge;
         }
@@ -65,7 +65,7 @@
         public static bool YesNoChoice()
         {
             Console.WriteLine("y/n?");
-            while(true)
+            while (true)
             {
                 string yesNoChoice = Console.ReadLine().ToLower();
                 if (yesNoChoice == "y")
@@ -89,7 +89,7 @@
             {
                 if (obligatoryInput && singleInput != true)
                 {
-                    while(true)
+                    while (true)
                     {
                         strInput = Console.ReadLine();
 
